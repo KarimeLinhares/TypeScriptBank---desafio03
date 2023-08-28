@@ -45,4 +45,4 @@ npm start
 * Testes unitários modificados para as funções criadas ou refatoradas.
 
 ✅ Fazer o deploy no Netlify e compartilhar o link da página
-* https://main--delicate-nougat-066b03.netlify.app
+* https://typescript-bank.netlify.app
