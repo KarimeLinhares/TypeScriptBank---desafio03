@@ -45,4 +45,4 @@ npm start
 * Testes unitários modificados para as funções criadas ou refatoradas.
 
 ✅ Fazer o deploy no Netlify e compartilhar o link da página
-* [Deploy da Página](https://typescript-bank.netlify.app)
+* [Deploy da Aplicação](https://typescript-bank.netlify.app)
