@@ -32,6 +32,7 @@ interface dataUser {
 
 export const MyForm = () => {
 	const [user, setUser] = useState<null | dataUser>();
+	console.log(user);
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [showPassword, setShowPassword] = useState(false);
