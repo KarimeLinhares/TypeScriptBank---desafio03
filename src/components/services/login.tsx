@@ -1,8 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import { useContext } from 'react';
 import { api } from '../Api/api';
-import { AppContext } from '../Context/AppContext';
-import { useNavigate } from 'react-router-dom';
 
 //autenticação
 
