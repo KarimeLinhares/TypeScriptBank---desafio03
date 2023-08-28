@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { createContext, useEffect, useState } from 'react';
 import { getAllLocalStorage } from '../services/storage';
 
@@ -17,7 +18,7 @@ export const AppContextProvider = ({ children }: any) => {
 			const { login } = JSON.parse(storage);
 			setIsLoggedIn(login);
 		}
-	});
+	}, []);
 
 	const user = 'usuário teste';
 
